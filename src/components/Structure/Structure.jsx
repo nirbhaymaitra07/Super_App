@@ -2,10 +2,10 @@ import React from "react";
 import style from "./structure.module.css";
 import video from "/assests/video.mp4";
 import QuickAccess from "../QuickAccess/QuickAccess";
+import Icons from "../../data/Appsinfo";
 import Header from "../Header/Header";
 import Happening from "../Happening/Happening";
 import Advertise from "../Advertise/Advertise";
-import { AppIcons } from "../../data/Appsinfo";
 import { Advertisements } from "../../data/advertisements";
 const Structure = () => {
   return (
@@ -30,14 +30,15 @@ const Structure = () => {
           <div className={style.map_component}>
             <Happening />
           </div>
-
           <div className={style.advertise_component}>
-         { Advertisements.map((item)=> <Advertise key={item.logo} ad={item}/>) }
+            {Advertisements.map((item) => (
+              <Advertise key={item.logo} ad={item} />
+            ))}
           </div>
           <div className={style.apps}>
-            {AppIcons.map((item) => (
-              <QuickAccess key={item} app={item} />
-            ))}
+            {Icons.map((item) => {
+              return <QuickAccess key={item.img} app={item} />;
+            })}
           </div>
         </div>
       </div>

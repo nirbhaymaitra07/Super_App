@@ -1,13 +1,13 @@
 import React from 'react'
 import style from "./header.module.css"
-import logo from "/images/Revvee 2.svg"
+import logo from "/images/Quick-Access/Revvee2.svg"
 import HeaderTab from '../HeaderTab/HeaderTab'
-import cloud from "/images/cloud.svg"
-import mike from "/images/mike.svg"
-import people from "/images/people.svg"
-import bin from "/images/bin.svg"
-import roadside from "/images/roadside.svg"
-import profile from "/images/Profile.svg"
+import cloud from "/images/Quick-Access/cloud.svg"
+import mike from "/images/Quick-Access/mike.svg"
+import people from "/images/Quick-Access/people.svg"
+import bin from "/images/Quick-Access/bin.svg"
+import roadside from "/images/Quick-Access/roadside.svg"
+import profile from "/images/Quick-Access/Profile.svg"
 const Header = () => {
   let tabsData=[
     {
