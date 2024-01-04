@@ -11,24 +11,24 @@ export const Advertisements = [
     logo: herehear,
     banner: bruno,
     title: "Book your tickets now",
-    live:false,
+    live: false,
   },
   {
     logo: izak,
     banner: party,
     title: "Playbook Party-time started",
-    live:false,
+    live: false,
   },
   {
     logo: museologo,
     banner: museo,
     title: "Primavera Art Auction is live",
-    live:true,
+    live: true,
   },
   {
     logo: newampli,
     banner: london,
     title: "Fundraiser for church",
-    live:false,
+    live: false,
   },
 ];
