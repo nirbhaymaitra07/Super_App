@@ -16,20 +16,20 @@ import Frame5 from "/images/Quick-Access-hover/Frame-5.svg";
 import Frame6 from "/images/Quick-Access-hover/Frame-6.svg";
 
 const Icons = [
-  { img: aegis, title: "View TV Guide", src: Frame6 },
-  { img: ampli, title: "05:48 AM", src: Artboard, subtitle: "Sunshine" },
+  { img: revee, title: "View TV Guide", src: Frame6 },
+  { img: Logo, title: "05:48 AM", src: Artboard, subtitle: "Sunshine" },
   {
-    img: clink,
+    img: iZak,
     title: "11,434 KWH",
     src: Circle,
     text: "10%",
     subtitle: "Energy Consumed",
   },
-  { img: dapp, title: "View Message Board", src: Frame4 },
-  { img: iZak, title: "Go to my Wishlist", src: Frame3 },
-  { img: Logo, title: "Go to my Wishlist", src: Frame2 },
-  { img: Museo, title: "Raise a fund", src: Frame1, subtitle: "help one" },
-  { img: revee, title: "Report an issue", src: Frame5 },
+  { img: aegis, title: "View Message Board", src: Frame4 },
+  { img: Museo, title: "Go to my Wishlist", src: Frame3 },
+  { img: dapp, title: "Go to my Wishlist", src: Frame2 },
+  { img: ampli, title: "Raise a fund", src: Frame1, subtitle: "help one" },
+  { img: clink, title: "Report an issue", src: Frame5 },
 ];
 
 export default Icons;
