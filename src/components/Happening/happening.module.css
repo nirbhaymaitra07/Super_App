@@ -1,6 +1,6 @@
 .happening_container {
-  height: 70.5%;
-  width: 38.125%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
