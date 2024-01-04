@@ -1,0 +1,98 @@
+.app_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 3.55% 3.125%;
+  z-index: 200;
+  top: 0;
+  left: 0;
+}
+
+.top {
+  width: 100%;
+  height: 8.125%;
+  margin-bottom:1% ;
+}
+
+
+.headings{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    padding: 0% 7.8%;
+}
+.bottom {
+  width: 100%;
+  height: 88.59%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0% 4.5%;
+}
+
+.map_component{
+    width: 45.06%;
+    height: 100%;
+    background-color: brown;
+    margin-left: 2.5%;
+}
+
+.advertise_component{
+    width: 25%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.apps{
+    width: 18.37%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 1%;
+    /* background-color: tomato; */
+    margin-right: 2.5%;
+}
+
+.map_heading{
+    width: 48.5%;
+    height: 100%;
+    margin-right: 2.4%;
+    background-color: chocolate;
+}
+
+.advertise_heading{
+    width: 27%;
+    height: 100%;
+    margin-right: 2.5%;
+    background-color: yellow;
+}
+.apps_heading{
+    width: 20%;
+    height: 100%;
+    padding-left: 1%;
+    /* background-color: rgb(191, 34, 191); */
+}
