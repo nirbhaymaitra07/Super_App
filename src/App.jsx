@@ -6,12 +6,10 @@ import Structure from "./components/Structure/Structure";
 import Happening from "./components/Happening/Happening";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  
   return (
     <>
       <Structure/>
-      {/* <Happening /> */}
     </>
   );
 }
