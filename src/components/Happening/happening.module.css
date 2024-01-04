@@ -1,0 +1,81 @@
+.happening_container {
+  height: 70.5%;
+  width: 38.125%;
+  display: flex;
+  flex-direction: column;
+  border-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
+  background: #0c0f13;
+  position: relative;
+}
+
+.main_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%); */
+  /* transition: background 0.5s ease-in-out; */
+  position: relative;
+}
+
+.gif_layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  width: clamp(9.5rem, 0rem + 11.875vw, 28.5rem);
+}
+
+.map_layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_bar {
+  width: 100%;
+  border-bottom-left-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
+  border-bottom-right-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
+  padding: clamp(0.5rem, 0rem + 0.625vw, 1.5rem)
+    clamp(1rem, 0rem + 1.25vw, 3rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 401;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+}
+
+.mia_logo {
+  display: flex;
+}
+
+.mia_logo > img {
+  height: clamp(2rem, 0rem + 2.5vw, 6rem);
+}
+
+.mia_message {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.25rem, 0rem + 0.3125vw, 0.75rem);
+}
+
+.mia_message > .count {
+  font-size: clamp(1.5rem, 0rem + 1.875vw, 4.5rem);
+  font-weight: 500;
+}
+
+.mia_message > .message {
+  font-size: clamp(1rem, 0rem + 1.25vw, 3rem);
+  font-weight: 400;
+}
