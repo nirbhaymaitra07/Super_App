@@ -10,7 +10,7 @@ const QuickAccess = ({ app }) => {
       onMouseLeave={() => setHover(false)}
     >
       {!hover ? (
-        <img src={app.img} alt="" />
+        <img className={style.appicon} src={app.img} alt="" />
       ) : (
         <div className={style.sub_container}>
           <div className={style.img_container}>
