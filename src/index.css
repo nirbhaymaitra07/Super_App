@@ -5,9 +5,39 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
- 
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
+}
+
+.leaflet-control-container .leaflet-top,
+.leaflet-control-container .leaflet-bottom,
+.leaflet-control-container .leaflet-right,
+.leaflet-control-container .leaflet-left {
+  display: none;
+}
+
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+.fade-in-image {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
