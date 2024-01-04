@@ -4,7 +4,11 @@ import style from "./quickAccess.module.css";
 const QuickAccess = ({ app }) => {
   let [hover, setHover] = useState(false);
   return (
-    <div className={style.container} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+    <div
+      className={style.container}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
       {!hover ? (
         <img src={app.img} alt="" />
       ) : (

@@ -1,6 +1,6 @@
 .container {
   width: 40%;
-  height: 24%;
+  height: 22%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,11 +24,11 @@
   display: flex;
   font-size: clamp(0.04875rem, -0.0001rem + 0.7813vw, 4.8828125rem);
 }
-.sub_container_center_para{
-    font-size: clamp(0.04875rem, -0.0001rem + 0.7813vw, 4.8828125rem);
-    text-align: center;
-    padding: 0px auto;
-    font-weight: 500;
+.sub_container_center_para {
+  font-size: clamp(0.04875rem, -0.0001rem + 0.7813vw, 4.8828125rem);
+  text-align: center;
+  padding: 0px auto;
+  font-weight: 500;
 }
 .subtitle {
   font-size: clamp(0.04875rem, -0.0001rem + 0.7813vw, 4.8828125rem);
