@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background-color: black;
-  border-radius: 16px;
+  border-radius: clamp(0.5rem, 0rem + 0.625vw, 1.5rem);
 }
 
 .appicon{
@@ -23,7 +23,7 @@
   flex-direction: column;
   padding: 7.14% 9.75%;
   background-color: grey;
-  border-radius: 15px;
+  border-radius: clamp(0.5rem, 0rem + 0.625vw, 1.5rem);
 }
 .sub_container_para {
   display: flex;
