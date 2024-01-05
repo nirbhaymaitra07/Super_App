@@ -8,6 +8,7 @@ import people from "/images/Quick-Access/people.svg";
 import bin from "/images/Quick-Access/bin.svg";
 import roadside from "/images/Quick-Access/roadside.svg";
 import profile from "/images/Quick-Access/Profile.svg";
+import { runDemo } from "../../scripts/demo";
 const Header = () => {
   let tabsData = [
     {
@@ -34,7 +35,7 @@ const Header = () => {
   return (
     <div className={style.container}>
       <div className={style.left}>
-        <img src={logo} className={style.logo} alt="" />
+        <img src={logo} className={style.logo} alt="" onClick={()=>runDemo()} />
       </div>
       <div className={style.right}>
         <div className={style.tabs_container}>
