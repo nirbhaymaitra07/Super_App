@@ -111,8 +111,7 @@
 @media screen and (min-width: 1000px) {
   .more_info_container {
     width: 96%;
-    height: 18%;
-    /* margin-top: -12%; */
+    height: 20%;
     margin-bottom: 2.22%;
     background-color: rgb(0, 0, 0, 0.8);
     padding-left: 3%;
@@ -134,7 +133,7 @@
   position: relative;
   left: 61%;
   right: 0%;
-  top: 10%;
+  top: 5%;
 }
 .more_info_container_para_info {
   font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
