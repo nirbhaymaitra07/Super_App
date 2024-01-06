@@ -20,7 +20,7 @@ function MainContainer() {
 
   return (
     <div className={`${styles.mainContainer}`}>
-      {/* <TopRightAd {...topRightAdData} /> */}
+      <TopRightAd {...topRightAdData} />
       <CastingInfo />
       {/* <SaleInfo {...saleInfoData} /> */}
     </div>
