@@ -1,0 +1,101 @@
+.app_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 3.55% 3.125%;
+  padding-top: 2.55%;
+  z-index: 200;
+  top: 0;
+  left: 0;
+}
+
+.top {
+  width: 100%;
+  height: 8.125%;
+  margin-bottom: 3%;
+}
+
+.headings {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  padding: 0% 7.8%;
+}
+.title {
+  font-size: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);
+  color: var(--White-white-600);
+  font-weight: 400;
+}
+.bottom {
+  width: 100%;
+  height: 80.59%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0% 4.5%;
+}
+
+.map_component {
+  width: 45.06%;
+  height: 100%;
+  margin-left: 2.5%;
+}
+
+.advertise_component {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4%;
+}
+
+.apps {
+  width: 18.37%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 4%;
+  margin-right: 2.5%;
+}
+
+.map_heading {
+  width: 48.5%;
+  height: 100%;
+  margin-right: 2.4%;
+}
+
+.advertise_heading {
+  width: 27%;
+  height: 100%;
+  margin-right: 2.5%;
+}
+.apps_heading {
+  padding-left: 1%;
+  font-size: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);
+  font-weight: 400;
+  color: var(--White-white-600);
+}

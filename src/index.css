@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --White-white-700: #b5b5b5;
+  --White-white-600: #e8e8e8;
+  --Green-green-600: #44a042;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: clamp(1rem, 0rem + 1.25vw, 3rem);
+}
+
+.leaflet-control-container .leaflet-top,
+.leaflet-control-container .leaflet-bottom,
+.leaflet-control-container .leaflet-right,
+.leaflet-control-container .leaflet-left {
+  display: none;
+}
+
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+.fade-in-image {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
