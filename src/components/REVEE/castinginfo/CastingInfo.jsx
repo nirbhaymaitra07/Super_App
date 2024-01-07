@@ -48,7 +48,7 @@ const CastMember = ({ personDetails }) => {
   );
 };
 
-const CastingInfo = () => {
+const CastingInfo = ({setFunction}) => {
   const castMembers = [
     {
       name: "Samantha Ponder",
@@ -72,7 +72,9 @@ const CastingInfo = () => {
 
   return (
     <div className={style.main_container}>
-      <div className={style.upper_container}>
+      <div className={style.upper_container}  onClick={()=>{
+        setFunction("main")
+      }}>
         <img
           className={style.img_upper_container}
           src="svgs/Back.svg"
@@ -80,9 +82,12 @@ const CastingInfo = () => {
         />
       </div>
 
+      <div className={`${style.castMemberContainer}`}>
+
       {castMembers.map((personDetails, index) => (
         <CastMember key={index} personDetails={personDetails} />
       ))}
+      </div>
     </div>
   );
 };

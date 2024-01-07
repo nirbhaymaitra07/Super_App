@@ -48,3 +48,15 @@
     opacity: 1;
   }
 }
+
+.tv-controls{
+  transform: translateY(150%);
+  transition:all 1s ease-in-out;
+}
+
+.main-screen:hover .tv-controls{
+  transform: translateY(0);
+}
+.main-screen:hover .bottom-ad{
+  display: none;
+}

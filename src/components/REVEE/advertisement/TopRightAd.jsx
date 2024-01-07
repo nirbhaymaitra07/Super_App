@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "./topRightAd.module.css";
 
+import {motion} from "framer-motion"
+
 const TopRightAd = ({ imageSrc, paraContent }) => {
   const [fillBar, setFillBar] = useState(false);
   const [percentage, setPercentage] = useState(65);
@@ -18,10 +20,14 @@ const TopRightAd = ({ imageSrc, paraContent }) => {
     : "rgba(255, 255, 255, 0.10)";
 
   return (
-    <div className={styles.main_container}>
+    <motion.div
+    initial={{ x: '100vw' }}
+    animate={{ x: 0 }}
+    transition={{ duration: 1.5 }} // Set the duration to a slow value (e.g., 1.5 seconds)
+     className={styles.main_container}>
       <div className={styles.vertical_red_bar}></div>
       <div className={styles.img_container}>
-        <img src={imageSrc} className={styles.img_hunger} alt="Hunger" />
+        <img src="/svgs/Hunger.svg" className={styles.img_hunger} alt="Hunger" />
       </div>
 
       <div className={styles.countdown_img_container}>
@@ -71,7 +77,7 @@ const TopRightAd = ({ imageSrc, paraContent }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

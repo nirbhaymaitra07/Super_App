@@ -1,10 +1,17 @@
 import React from "react";
 import styles from "./pricingadv.module.css";
 
+import {motion} from "framer-motion"
+
 const PricingAd = () => {
   return (
     <>
-      <div className={styles.main_block}>
+      <motion.div
+       initial={{ x: '100vw' }}
+       animate={{ x: 0 }}
+       transition={{ duration: 1.5 }} // Set the duration to a slow value (e.g., 1.5 seconds)
+      
+      className={styles.main_block}>
         <div className={styles.ad_container}>
           <div className={styles.ad_content}>
             <div className={styles.order_details}>
@@ -38,7 +45,7 @@ const PricingAd = () => {
             <div className={styles.website}>www.burgerking.com</div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
