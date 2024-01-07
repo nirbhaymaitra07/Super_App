@@ -1,0 +1,19 @@
+.container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tabText {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  color: var(--White-white-700);
+}
+
+.tabIcon {
+  width: 35%;
+}

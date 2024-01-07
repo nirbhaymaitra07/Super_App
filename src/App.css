@@ -1,0 +1,18 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.hoverclass {
+  box-shadow: 1px 0px 30px 7px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 1px 0px 30px 7px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 1px 0px 30px 7px rgba(255, 255, 255, 0.75);
+}
