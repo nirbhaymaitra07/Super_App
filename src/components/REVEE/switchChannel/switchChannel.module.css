@@ -1,0 +1,251 @@
+.main_container{
+    width: 23.43%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container{
+        width: 23.43%;
+        height: 98%;
+        background-color: rgb(0, 0, 0, 0.5); 
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+}
+
+.main_container_fox_news{
+    width: 100%;
+    height: 13.88%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+
+.main_container_cnbc_news{
+    width: 100%;
+    height: 13.88%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 15%;
+    padding-top: 6%;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_cnbc_news{
+        width: 100%;
+        height: 13.88%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 25%;
+        padding-top: 6%;
+        margin-bottom: 5%;
+    }
+}
+
+.main_container_cnbc_news_img_1{
+    width: 100%;
+    height: 100%;
+    padding-left: 20%;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_cnbc_news_img_1{
+        width: 100%;
+    height: 100%;
+    padding-left: 33%;
+    margin-right: 8%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .main_container_anderson_cooper_img_2_arrow{
+        width: 300%;
+    }
+    
+}
+
+@media screen and (min-width: 720px) {
+    .main_container_cnbc_news_img_1_arrow{
+        width: 140%;
+    }   
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_cnbc_news_img_1_arrow{
+        width: 125%;
+    }   
+}
+
+
+.main_container_anderson_cooper{
+    width: 100%;
+    height: 20%;
+    padding-left: 11%;
+    padding-right: 5%;
+    display: flex;
+    gap: 10%;
+}
+
+.main_container_anderson_cooper_card{
+    width: 100%;
+    height: 100%;
+}
+
+.main_container_anderson_cooper_img{
+    width: 100%;
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main_container_anderson_cooper_img_tag{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_container_anderson_cooper_desc{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.main_container_anderson_cooper_desc_img{
+    width: 10%;
+    height: 100%;
+}
+
+.main_container_anderson_cooper_desc_img_tag{
+    width: 100%;
+    height: 100%;
+}
+
+.main_container_anderson_cooper_heading{
+    width: 100%;
+    height: 67%;
+    padding-left: 6%;
+    padding-top: 2%;
+    background-color: #3D2612;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_anderson_cooper_heading{
+        width: 100%;
+        height: 100%;
+        padding-left: 6%;
+        padding-top: 2%;
+        background-color: #3D2612;
+    }
+}
+
+.main_container_anderson_cooper_heading_p_tag{
+    height: 100%;
+    font-size: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);
+    display: flex;
+    
+}
+
+.main_container_anderson_cooper_img_2{
+    width: 8%;
+    height: 30%;
+    padding-left: 0%;
+    margin-top: 20%;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_anderson_cooper_img_2{
+        width: 2%;
+        height: 30%;
+        padding-left: 0%;
+        margin-top: 20%;
+    }
+}
+
+.main_container_sports_nation_img_2{
+    height: 20%;
+    width: 8%;
+    padding-top: 0%;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .main_container_sports_nation_img_2{
+        width: 2%;
+        height: 30%;
+        padding-left: 0%;
+        margin-top: 0%;
+    }
+}
+
+.main_container_sports_nation_img_2_arrow{
+    transform: rotate(180deg);
+    width: 300%;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_sports_nation_img_2_arrow{
+        width: 1000%;
+    }
+}
+
+.main_container_hbo{
+    width: 100%;
+    height: 13.88%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10%;
+}
+
+.main_container_hbo_max{
+    width: 100%;
+    height: 13.88%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_anderson_cooper_img_2_arrow{
+        width: 1000%;
+    }
+}
+
+
+
+.main_container_anderson_cooper_img_2_arrow_text{
+    font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
+    padding-left: 30%;
+}
+
+@media screen and (min-width: 1000px) {
+    .main_container_anderson_cooper_img_2_arrow_text{
+        font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
+        padding-left: 5%;
+    }
+}
+
+.main_container_sports_nation_img_2_arrow_text{
+    font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
+    padding-left: 90%;
+}
+
+.main_container_hbo_img{
+    /* filter: invert(100%) brightness(100%); */
+    background-color: white;
+}
+
+

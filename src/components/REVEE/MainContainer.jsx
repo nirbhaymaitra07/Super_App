@@ -3,6 +3,7 @@ import styles from "./mainContainer.module.css";
 import TopRightAd from "./advertisement/TopRightAd";
 import CastingInfo from "./castinginfo/CastingInfo";
 import SaleInfo from "./saleinfo/SaleInfo";
+import SwitchChannel from "./switchChannel/switchChannel";
 
 function MainContainer() {
   const topRightAdData = {
@@ -20,8 +21,9 @@ function MainContainer() {
 
   return (
     <div className={`${styles.mainContainer}`}>
-      <TopRightAd {...topRightAdData} />
-      <CastingInfo />
+      <SwitchChannel />
+      {/* <TopRightAd {...topRightAdData} /> */}
+      {/* <CastingInfo /> */}
       {/* <SaleInfo {...saleInfoData} /> */}
     </div>
   );
