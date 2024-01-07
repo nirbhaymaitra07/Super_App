@@ -1,10 +1,10 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .mainContainer{
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url(/public/images/TvScreenImage.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     border: 1px solid red;
 }
