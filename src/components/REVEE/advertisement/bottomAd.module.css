@@ -1,0 +1,74 @@
+.body{
+  width:100%;
+  height:100%;
+}
+.mainFooter {
+  width: 100%;
+  height: 12.50%;
+  top: 84.72%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5); 
+  border: 2%;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width:6.94%;
+  aspect-ratio: 1;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.add_content {
+  width: 68.75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:2%;
+  
+}
+.content {
+  width: 64.77%;
+  height: 73.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left:2%;
+}
+.ad_img {
+  width: 12.93%;
+  height: 100%;
+  display:flex;
+  align-items: center;
+}
+.logo_img {
+  width: 55.56%;
+  aspect-ratio: 1;
+}
+.content1 {
+  width: 51.58%;
+  height: 39.39%;
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  color:#FFF;
+  font-weight: 400;
+  font-size: clamp(0.1171875rem, 0rem + 1.875vw, 11.71875rem);
+}
+.content2 {
+  max-width:100%;
+  width:fit-content;
+  height: 24.24%;
+  display: flex;
+  align-items: center;
+  color: var(--Fitness-sys-dark-on-surface-variant, #bfc9c3);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
+}
+.add_content:hover {
+  opacity: 0.9;
+}
