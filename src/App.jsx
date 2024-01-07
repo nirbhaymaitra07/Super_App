@@ -1,13 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import MainContainer from "./components/REVEE/MainContainer";
-import Structure from "./components/Structure/Structure";
+import MainContainer from "./MainContainer";
 
 function App() {
   return (
-    <>
-      {/* <Structure /> */}
+    <BrowserRouter>
       <MainContainer/>
-    </>
+    </BrowserRouter>
   );
 }
 

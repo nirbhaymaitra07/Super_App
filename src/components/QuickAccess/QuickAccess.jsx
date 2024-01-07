@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import style from "./quickAccess.module.css";
+import { useNavigate } from "react-router";
 
 const QuickAccess = ({ app }) => {
+  const navigate =useNavigate();
   let [hover, setHover] = useState(false);
   return (
     <div
       className={style.container}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-    >
+     onClick={()=>{
+       app.title==="View TV Guide"?navigate("/revee-mainContainer"):""
+     }} >
       {!hover ? (
         <img className={style.appicon} src={app.img} alt="" />
       ) : (
