@@ -41,18 +41,14 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 4%;
+    gap: 6%;
     /* outline: 1px solid red; */
 }
 
-.navLeft>img:nth-child(1){
-    height: 35%;
-    aspect-ratio: 2.5/1;
-}
-
-.navLeft>img:nth-child(2){
-    height: 50%;
-    aspect-ratio: 1/1;
+.navLeft>img{
+    height: 60%;
+    aspect-ratio: 1.5/1;
+    cursor: pointer;
 }
 
 .navLeft>p{
@@ -155,6 +151,12 @@
     position: relative;
     display: flex;
     gap: 3%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: clamp(0.068375rem, 0rem + 1.094vw, 6.8375rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
     /* outline: 1px solid red; */
 }
 
@@ -344,7 +346,8 @@
 }
 
 .channels>img{
-    aspect-ratio: 1/1;
+    width: 50%;
+    height: 50%;
 }
 .channelInformationContainer{
     width: 87%;
@@ -446,13 +449,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
 }
 
 .channelInformationContainer th{
     width: 7.965%;
+    height: 100%;
+    display: flex;
+    align-items: center;
     text-align: left;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    /* border: 1px solid red; */
 }
 
 .channelInformationContainer th:nth-child(even){
@@ -472,9 +486,15 @@
     padding: 10px;
     background: inherit;
     white-space: nowrap;
-   
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-bottom: 0;
 }
 
+.channelInformationContainer tbody td:hover{
+    background-color: black;
+    border-radius: 12px;
+    border: 1px solid rgb(28, 211, 28);
+}
 
 .gridItem{
     width: 100%;
@@ -484,20 +504,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 5%;
-    border-radius: clamp(0.025rem, 0rem + 0.4vw, 2.5rem);
-    border: 0.717px solid rgba(69, 67, 67, 0.51);
-    border-bottom: 0;
-    background: rgba(36, 36, 36, 0.05);
-    backdrop-filter: blur(9px);
+    margin: 2%;
+    border-radius: 12px;
+    cursor: pointer;
     /* border: 1px solid white; */
 
-}
-
-.channelInformationContainer tbody td:hover .gridItem{
-    background-color: black;
-    border-radius: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
-    border: 1px solid rgb(28, 211, 28);
 }
 
 .gridItem>p{

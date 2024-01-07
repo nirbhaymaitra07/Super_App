@@ -9,35 +9,15 @@ import PricingAd from './pricingadvertisement/PricingAd';
 import TopRightAd from "./advertisement/TopRightAd";
 import CastingInfo from "./castinginfo/CastingInfo";
 import SaleInfo from "./saleinfo/SaleInfo";
+import SwitchChannel from './switchChannel/SwitchChannel';
 
 function ReveeMainContainer() {
-    const topRightAdData = {
-        imageSrc: "/svgs/Hunger.svg",
-        paraContent: "Who won Super Bowl One?",
-      };
     
-    
-    
-      const saleInfoData = {
-        saleImageSrc: "/svgs/Sale.svg",
-        buttonText: "ORDER NOW",
-      };
 
   return  (
     <div className={`${styles.mainContainer}`}>
-
-            {/* <MainScreen/> */}
             <Dashboard/>
-
-            {/* <EpgBanner/> */}
-            {/* <Fulladv /> */}
-            {/* <PricingAd /> */}
-            
-
-      {/* <TopRightAd {...topRightAdData} /> */}
-      {/* <CastingInfo /> */}
-      {/* <SaleInfo {...saleInfoData} /> */}
-
+           
     </div>
   );
 }

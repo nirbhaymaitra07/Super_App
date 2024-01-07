@@ -57,6 +57,7 @@
     width: 100%;
     height: 100%;
     padding-left: 20%;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) {
@@ -192,6 +193,7 @@
 .main_container_sports_nation_img_2_arrow{
     transform: rotate(180deg);
     width: 300%;
+    cursor: pointer;
 
 }
 
@@ -221,6 +223,7 @@
 @media screen and (min-width: 1000px) {
     .main_container_anderson_cooper_img_2_arrow{
         width: 1000%;
+        cursor: pointer;
     }
 }
 

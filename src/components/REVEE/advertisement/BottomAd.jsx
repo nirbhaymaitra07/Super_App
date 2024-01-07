@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./bottomAd.module.css";
+import { motion } from 'framer-motion';
 
 const BottomAd = () => {
   const companyObject = [
@@ -47,7 +48,10 @@ const BottomAd = () => {
 
   return (
     <>
-      <div className={styles.mainFooter}>
+      <motion.div
+      initial={{ x: '100vw' }}
+      animate={{ x: 0 }}
+      transition={{ duration: 1.5 }} className={`${styles.mainFooter} bottom-ad`}>
         <div className={styles.logo}>
           <img
             src={currentAd.logo}
@@ -64,7 +68,7 @@ const BottomAd = () => {
             <img src={currentAd.image} alt="ad_img" />
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
